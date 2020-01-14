@@ -56,7 +56,7 @@ If game exists but player is not authorized
 
 If game does not exist
 
-### b. GET /game?id={boardid}
+### GET /game?id={boardid}
 
 **Possible responses:**
 1. *200 OK*
