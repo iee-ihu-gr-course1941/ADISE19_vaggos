@@ -18,9 +18,9 @@
 
 ```
 {
-    "userid": 666,
+    "userid": 124,
     "token": "ac12345azfh",    
-    "boardid": 132,
+    "boardid": 1,
     "position": 6
 }
 ```
@@ -66,10 +66,10 @@ If game does not exist
   "gameinfo":
   {
     "player1" : 143,
-    "player2" : 344,
+    "player2" : 635,
     "boardstate": "x-o-x--ox"
     "running": "true",
-    "next" : 344,
+    "next" : 635,
     "winner": "none"
   }
 }
