@@ -95,13 +95,13 @@ If game does not exist
 ### Player Move
 
 ```
-curl -X POST --data '{ "userid": 143, "token": "randomtoken123", "boardid": 1, "position": 6 }'
+curl -X POST --data '{ "userid": 143, "token": "randomtoken123", "boardid": 1, "position": 6 }' <URL>
 ```
 
 ### Board State
 
 ```
-curl -X GET http://localhost/getBoardState
+curl -X GET http://localhost/game?id={boardid} 
 ```
 
 |-|A     |B     |C     |
